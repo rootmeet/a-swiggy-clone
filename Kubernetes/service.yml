@@ -9,5 +9,7 @@ spec:
   ports:
   - port: 80
     targetPort: 3000
+  externalIPs:
+  - 192.168.68.87
   selector:
     app: swiggy-app
